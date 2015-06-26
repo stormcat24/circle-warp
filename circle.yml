@@ -1,0 +1,10 @@
+machine:
+  services:
+    - docker
+
+deployment:
+  master:
+    owner: stormcat24
+    branch: master
+    commands:
+      - docker build -t stormcat24/circle-warp:latest .
