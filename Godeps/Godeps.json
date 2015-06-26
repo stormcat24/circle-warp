@@ -1,0 +1,24 @@
+{
+	"ImportPath": "github.com/stormcat24/circle-warp",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/alecthomas/template",
+			"Rev": "b867cc6ab45cece8143cfcc6fc9c77cf3f2c23c0"
+		},
+		{
+			"ImportPath": "github.com/alecthomas/units",
+			"Rev": "6b4e7dc5e3143b85ea77909c72caf89416fc2915"
+		},
+		{
+			"ImportPath": "github.com/zenazn/goji",
+			"Comment": "v0.9.0-15-g0276f3f",
+			"Rev": "0276f3f3fb609aabf8d9ba7aea10c80ec979989d"
+		},
+		{
+			"ImportPath": "gopkg.in/alecthomas/kingpin.v2",
+			"Comment": "v2.0.10",
+			"Rev": "e1f37920c1d0ced4d1c92f9526a2a433183f02e9"
+		}
+	]
+}
