@@ -1,5 +1,7 @@
 package config
 
 type Config struct {
-	Port int
+	WarpPort string
+	CircleciToken string
+	CircleciHost  string
 }

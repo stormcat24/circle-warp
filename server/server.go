@@ -7,7 +7,6 @@ import (
 
 func Serve(conf *config.Config) {
 
-	goji.Handle("/hoge/*", Routing())
-
+	goji.Get("/:org/:repo/*", Rewrite)
 	goji.Serve()
 }

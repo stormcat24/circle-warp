@@ -1,7 +1,5 @@
 FROM golang:1.4.2
 
-ENV PORT "7777"
-
 COPY . $GOPATH/src/github.com/stormcat24/circle-warp
 WORKDIR $GOPATH/src/github.com/stormcat24/circle-warp
 
@@ -10,4 +8,4 @@ RUN make deps build && \
 
 ENTRYPOINT /go/bin/circle-warp
 
-EXPOSE 7777
+EXPOSE 8000
